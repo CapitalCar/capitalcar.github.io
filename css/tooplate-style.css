@@ -597,4 +597,32 @@ video {
     text-decoration: none;
 }
 
+.contact-link,
+.email-link,
+.phone-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contact-link {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.contact-link:hover,
+.email-link:hover,
+.phone-link:hover {
+    color: #d4a762;
+}
+
+.contact-link i,
+.email-link i,
+.phone-link i {
+    font-size: 50px;
+}
+
 
