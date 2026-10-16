@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Capital Car Buyers</title>
+    <title>Capital Car Buyer</title>
 
     <!-- load stylesheets -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">  <!-- Google web font "Open Sans" -->
@@ -137,7 +137,20 @@
         762-BUY-CARS (289-2277)
     </a>
 </div>
-                                <form action="mailto: buyers@capitalcarbuyer.com" method="post" enctype="text/plain">
+                               <form id="contact-form"
+      action="https://formsubmit.co/buyers@capitalcarbuyer.com"
+      method="POST">
+
+  <!-- Email settings -->
+  <input type="hidden" name="_subject"
+         value="New Car Selling Inquiry - Capital Car Buyer">
+
+  <input type="hidden" name="_template" value="table">
+
+  <input type="hidden" name="_next"
+         value="https://capitalcarbuyer.com/thank-you.html">
+
+</form>
                                     <div class="form-group">
                                         <input type="text" id="contact_name" name="Name" class="form-control" placeholder="Name"  required/>
                                     </div>
